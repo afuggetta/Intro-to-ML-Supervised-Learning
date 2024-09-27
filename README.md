@@ -73,7 +73,7 @@ As part of the class I have prepared a short video presentation. You can find it
 
 ## GitHub repository
 
-This is the link to this GitHub repository: [Repo]()
+This is the link to this GitHub repository: [Repo](https://github.com/afuggetta/Intro-to-ML-Supervised-Learning)
 
 ### Directory structure
 Root directory with:
