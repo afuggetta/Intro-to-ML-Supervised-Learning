@@ -1,0 +1,92 @@
+# Heart Disease Prediction Project
+
+## Problem Description
+
+In this project, my goal is to develop a machine learning model that can predict whether a patient has heart disease based on various medical attributes. Early and accurate prediction can significantly impact patient care by enabling timely interventions.
+
+## Reasons
+
+I chose this particular subject because, while popular amongst others, it resonates particularly with me as my mother has recently passed away due to hart problems that were not detected on time. I hope to learn more about this subject and spread this knowledge so that others may benefit from it.
+
+## Libraries I used
+
+### Data Manipulation:
+
+- Pandas and numpy are essential for data handling and numerical computations.
+
+###  Visualization:
+
+- matplotlib.pyplot and seaborn are used for creating visualizations to explore and understand the data.
+
+### Machine Learning:
+
+- sklearn.model_selection provides tools for splitting the dataset and tuning models.
+- StandardScaler from sklearn.preprocessing is used for feature scaling.
+- sklearn.metrics offers functions to evaluate model performance.
+- Machine learning models imported include Logistic Regression, Random Forest Classifier, and Support Vector Classifier.
+
+### Handling Imbalanced Data:
+
+- SMOTE (Synthetic Minority Over-sampling Technique) from imblearn.over_sampling is used to address class imbalance in the dataset.
+
+## Dataset
+
+The dataset I used comes from UC Irvine available here: [Heart Disease - UC Irvine](https://archive.ics.uci.edu/dataset/45/heart+disease)
+
+"This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them.  In particular, the Cleveland database is the only one that has been used by ML researchers to date.  The "goal" field refers to the presence of heart disease in the patient.  It is integer valued from 0 (no presence) to 4. Experiments with the Cleveland database have concentrated on simply attempting to distinguish presence (values 1,2,3,4) from absence (value 0). " [[1]](#1)
+
+## Notebook Description
+
+### Exploratory Data Analysis (EDA)
+- Loading the data
+- Data cleaning
+- Data visualization
+
+### Feature Engineering
+
+- Encoding categorical variables
+- Feature scaling
+- Feature selection
+
+### Model building and training
+
+- Train and split
+- Handling class imbalance
+- Choose algorithms
+- Hyperparameter tuning
+
+### Evaluation
+- Performance metrics
+- Model comparison
+
+### Results and conclusion
+
+- Interpretation
+- Model performance
+- Limitations
+- Summary
+- Future work
+
+## Video presentation
+
+As part of the class I have prepared a short video presentation. You can find it [here]()
+
+## GitHub repository
+
+This is the link to this GitHub repository: [Repo]()
+
+### Directory structure
+Root directory with:
+- Requirements.txt
+- Readme.md
+
+Other directories:
+- data/: Include a note on where to download the dataset if it's too large or restricted.
+- notebooks/: Jupyter notebooks with EDA, modeling, and conclusions.
+- scripts/: Any Python scripts or modules used.
+- images/: Figures and plots used in the notebook or presentation.
+- models/: Saved model files if applicable.
+
+## References
+<a id="1">[1]</a>
+Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.
